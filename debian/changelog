@@ -4,6 +4,7 @@ qtwebkit-opensource-src (5.212.0~alpha2-8) UNRELEASED; urgency=medium
   * Build with system WOFF2 library, add a patch for that.
   * Build against Qt 5.10.1 in experimental.
   * Add support for the nodoc build profile.
+  * Update Vcs fields for migration to salsa.debian.org.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Feb 2018 12:26:57 +0300
 
