@@ -1,6 +1,5 @@
-qtwebkit-opensource-src (5.212.0~alpha2-8) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha2-8) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Build with system WOFF2 library, add a patch for that.
   * Build against Qt 5.10.1 in experimental.
   * Add support for the nodoc build profile.
@@ -8,7 +7,7 @@ qtwebkit-opensource-src (5.212.0~alpha2-8) UNRELEASED; urgency=medium
   * Add a patch to fix include path in pkg-config files (closes: #890413).
   * Update debian/libqt5webkit5.symbols from the current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Feb 2018 12:26:57 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 24 Feb 2018 15:21:11 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha2-7) unstable; urgency=medium
 
