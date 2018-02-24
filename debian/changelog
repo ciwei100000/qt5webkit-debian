@@ -1,5 +1,7 @@
 qtwebkit-opensource-src (5.212.0~alpha2-8) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Build with system WOFF2 library, add a patch for that.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Feb 2018 12:26:57 +0300
 
