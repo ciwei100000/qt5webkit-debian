@@ -5,6 +5,7 @@ qtwebkit-opensource-src (5.212.0~alpha2-8) UNRELEASED; urgency=medium
   * Build against Qt 5.10.1 in experimental.
   * Add support for the nodoc build profile.
   * Update Vcs fields for migration to salsa.debian.org.
+  * Add a patch to fix include path in pkg-config files (closes: #890413).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Feb 2018 12:26:57 +0300
 
