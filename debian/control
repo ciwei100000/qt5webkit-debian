@@ -42,8 +42,8 @@ Build-Depends: bison,
                ruby,
                xauth <!nocheck>,
                xvfb <!nocheck>
-Build-Depends-Indep: qtbase5-doc-html (>= 5.10.1+dfsg~),
-                     qttools5-dev-tools (>= 5.10.1~)
+Build-Depends-Indep: qtbase5-doc-html (>= 5.10.1+dfsg~) <!nodoc>,
+                     qttools5-dev-tools (>= 5.10.1~) <!nodoc>
 Standards-Version: 4.1.3
 Section: libs
 Homepage: https://github.com/annulen/webkit
@@ -89,6 +89,7 @@ Description: Qt WebKit QML module
  This package contains the WebKit QML module for QtDeclarative.
 
 Package: qtwebkit5-doc
+Build-Profiles: <!nodoc>
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
@@ -99,6 +100,7 @@ Description: Qt 5 webkit documentation
  This package contains the documentation for the Qt 5 webkit libraries.
 
 Package: qtwebkit5-doc-html
+Build-Profiles: <!nodoc>
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
