@@ -1,3 +1,10 @@
+qtwebkit-opensource-src (5.212.0~alpha2-10) UNRELEASED; urgency=medium
+
+  [ Simon Quigley ]
+  * Add my name to Uploaders.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 11:23:47 -0500
+
 qtwebkit-opensource-src (5.212.0~alpha2-9) unstable; urgency=medium
 
   * Release to unstable.
