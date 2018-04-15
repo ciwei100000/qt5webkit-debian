@@ -41,6 +41,11 @@ ifneq (,$(filter $(DEB_HOST_ARCH_CPU),ppc64el s390x))
 	EXTRA_CMAKE_ARGUMENTS += -DUSE_SYSTEM_MALLOC=ON
 endif
 
+# To work around internal compiler error
+ifeq ($(DEB_HOST_ARCH),ppc64el)
+	EXTRA_CMAKE_ARGUMENTS += -DENABLE_ALLINONE_BUILD=OFF
+endif
+
 %:
 	dh $@ --buildsystem=cmake --with pkgkde_symbolshelper
 

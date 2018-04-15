@@ -4,6 +4,7 @@ qtwebkit-opensource-src (5.212.0~alpha2-7ubuntu1) UNRELEASED; urgency=medium
   * Build with system WOFF2 library, add a patch for that.
   * Add a patch to fix include path in pkg-config files (closes: #890413).
   * Update Vcs fields for migration to salsa.debian.org.
+  * Disable all-in-one build on ppc64el, otherwise GCC gets an ICE.
 
  -- Dmitry Shachnev <mitya57@ubuntu.com>  Sun, 15 Apr 2018 14:39:44 +0300
 
