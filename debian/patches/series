@@ -9,3 +9,4 @@ fix_ftbfs_alpha.diff
 pkgconfig_description.diff
 use_system_woff2.diff
 pkgconfig_includedir.diff
+include_functional.diff
