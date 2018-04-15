@@ -1,5 +1,6 @@
 qtwebkit-opensource-src (5.212.0~alpha2-7ubuntu1) UNRELEASED; urgency=medium
 
+  * Update symbols files from the build logs.
 
  -- Dmitry Shachnev <mitya57@ubuntu.com>  Sun, 15 Apr 2018 14:39:44 +0300
 
