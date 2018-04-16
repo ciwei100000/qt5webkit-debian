@@ -6,6 +6,7 @@ qtwebkit-opensource-src (5.212.0~alpha2-7ubuntu1) UNRELEASED; urgency=medium
   * Update Vcs fields for migration to salsa.debian.org.
   * Disable all-in-one build on ppc64el, otherwise GCC gets an ICE.
   * Add a patch to fix FTBFS with all-in-one mode disabled.
+  * Build with -g1 instead of -g on ppc64el, to make the linker happy.
 
  -- Dmitry Shachnev <mitya57@ubuntu.com>  Sun, 15 Apr 2018 14:39:44 +0300
 
