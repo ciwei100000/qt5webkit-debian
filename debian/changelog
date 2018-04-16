@@ -1,4 +1,4 @@
-qtwebkit-opensource-src (5.212.0~alpha2-7ubuntu1) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha2-7ubuntu1) bionic; urgency=medium
 
   * Update symbols files from the build logs.
   * Build with system WOFF2 library, add a patch for that.
