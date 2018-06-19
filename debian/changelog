@@ -1,3 +1,12 @@
+qtwebkit-opensource-src (5.212.0~alpha2-10ubuntu1) UNRELEASED; urgency=medium
+
+  * Merge from Debian Experimental. Remaining changes:
+    - Disable all-in-one build on ppc64el, otherwise GCC gets an ICE.
+    - Add a patch to fix FTBFS with all-in-one mode disabled.
+    - Build with -g1 instead of -g on ppc64el, to make the linker happy.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 19 Jun 2018 12:03:35 -0500
+
 qtwebkit-opensource-src (5.212.0~alpha2-10) experimental; urgency=medium
 
   * Add my name to Uploaders.
