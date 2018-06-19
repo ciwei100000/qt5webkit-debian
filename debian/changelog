@@ -5,6 +5,7 @@ qtwebkit-opensource-src (5.212.0~alpha2-10) UNRELEASED; urgency=medium
   * Bump build dependencies to 5.11.0.
   * Fix insecure-copyright-format-uri.
   * Bump Standards-version to 4.1.4, no changes needed.
+  * Bump debhelper compat to 11, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 11:23:47 -0500
 
