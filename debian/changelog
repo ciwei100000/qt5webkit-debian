@@ -1,3 +1,19 @@
+qtwebkit-opensource-src (5.212.0~alpha2-10) experimental; urgency=medium
+
+  * Add my name to Uploaders.
+  * Bump build dependencies to 5.11.0.
+  * Fix insecure-copyright-format-uri.
+  * Bump Standards-version to 4.1.4, no changes needed.
+  * Bump debhelper compat to 11, no changes needed.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 18 Jun 2018 23:26:42 -0400
+
+qtwebkit-opensource-src (5.212.0~alpha2-9) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 17:23:09 -0300
+
 qtwebkit-opensource-src (5.212.0~alpha2-7ubuntu1) bionic; urgency=medium
 
   * Update symbols files from the build logs.
@@ -15,6 +31,17 @@ qtwebkit-opensource-src (5.212.0~alpha2-7build2) bionic; urgency=medium
   * No-change rebuild against Qt 5.9.4.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 25 Feb 2018 00:13:26 -0600
+
+qtwebkit-opensource-src (5.212.0~alpha2-8) experimental; urgency=medium
+
+  * Build with system WOFF2 library, add a patch for that.
+  * Build against Qt 5.10.1 in experimental.
+  * Add support for the nodoc build profile.
+  * Update Vcs fields for migration to salsa.debian.org.
+  * Add a patch to fix include path in pkg-config files (closes: #890413).
+  * Update debian/libqt5webkit5.symbols from the current build log.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 24 Feb 2018 15:21:11 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha2-7) unstable; urgency=medium
 
