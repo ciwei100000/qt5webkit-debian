@@ -1,9 +1,8 @@
-qtwebkit-opensource-src (5.212.0~alpha2-11) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha2-11) experimental; urgency=medium
 
-  [ Simon Quigley ]
   * Bump build dependencies to 5.11.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jun 2018 19:14:57 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 19 Jun 2018 20:20:58 -0500
 
 qtwebkit-opensource-src (5.212.0~alpha2-10) experimental; urgency=medium
 
