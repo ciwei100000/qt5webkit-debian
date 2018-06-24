@@ -1,4 +1,4 @@
-qtwebkit-opensource-src (5.212.0~alpha2-11ubuntu1) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha2-12ubuntu1) UNRELEASED; urgency=medium
 
   * Merge from Debian Experimental. Remaining changes:
     - Disable all-in-one build on ppc64el, otherwise GCC gets an ICE.
@@ -6,6 +6,13 @@ qtwebkit-opensource-src (5.212.0~alpha2-11ubuntu1) UNRELEASED; urgency=medium
     - Build with -g0 instead of -g on ppc64el, to make the linker happy.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 19 Jun 2018 12:03:35 -0500
+
+qtwebkit-opensource-src (5.212.0~alpha2-12) experimental; urgency=medium
+
+  * Remove the dbgsym migration section of debian/rules; it isn't needed
+    anymore.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 23 Jun 2018 20:30:20 -0500
 
 qtwebkit-opensource-src (5.212.0~alpha2-11) experimental; urgency=medium
 

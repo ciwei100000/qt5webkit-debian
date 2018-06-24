@@ -82,6 +82,3 @@ endif
 
 override_dh_auto_test-indep:
 	# Do not attempt to run anything to make build-indep work
-
-override_dh_strip:
-	dh_strip --dbgsym-migration='libqt5webkit5-dbg (<< 5.212.0~alpha2-1~)'
