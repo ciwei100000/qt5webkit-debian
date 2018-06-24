@@ -1,5 +1,9 @@
 qtwebkit-opensource-src (5.212.0~alpha2-12) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
+  * Remove the dbgsym migration section of debian/rules; it isn't needed
+    anymore.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jun 2018 20:28:58 -0500
 
 qtwebkit-opensource-src (5.212.0~alpha2-11) experimental; urgency=medium
