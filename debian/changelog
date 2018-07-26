@@ -1,5 +1,8 @@
 qtwebkit-opensource-src (5.212.0~alpha2-14) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Jul 2018 22:21:44 -0300
 
 qtwebkit-opensource-src (5.212.0~alpha2-13) unstable; urgency=medium
