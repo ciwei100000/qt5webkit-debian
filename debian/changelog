@@ -1,6 +1,7 @@
 qtwebkit-opensource-src (5.212.0~alpha2-15) UNRELEASED; urgency=medium
 
   * Build with -fpermissive to (hopefully) solve the i386 FTBFS.
+  * Update symbols from build logs.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 26 Jul 2018 18:54:27 -0500
 
