@@ -1,4 +1,4 @@
-qtwebkit-opensource-src (5.212.0~alpha2-18) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha2-18) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Backport upstream patch to enable doxygen tags file generation
@@ -7,7 +7,7 @@ qtwebkit-opensource-src (5.212.0~alpha2-18) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Bump Qt build dependencies to ensure it builds against the right versions.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Nov 2018 18:08:39 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 08 Dec 2018 12:36:46 -0300
 
 qtwebkit-opensource-src (5.212.0~alpha2-17) unstable; urgency=medium
 
