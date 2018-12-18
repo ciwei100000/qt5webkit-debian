@@ -1,5 +1,8 @@
 qtwebkit-opensource-src (5.212.0~alpha2-19) UNRELEASED; urgency=medium
 
+  [ Helmut Grohne ]
+  * Fix FTCBFS: Annotate interpreter dependencies with :native. (Closes:
+    #916788)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Dec 2018 21:25:55 +0300
 
