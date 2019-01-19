@@ -3,6 +3,7 @@ qtwebkit-opensource-src (5.212.0~alpha2-20) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Backport two upstream commits to fix page width in plain text messages
     in Trojitá (fix_trojita_plaintext.diff; closes: #919522).
+  * Update to debhelper compat level 12.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jan 2019 22:12:02 +0300
 
