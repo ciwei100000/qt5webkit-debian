@@ -5,6 +5,8 @@ qtwebkit-opensource-src (5.212.0~alpha2-20) UNRELEASED; urgency=medium
     in Trojitá (fix_trojita_plaintext.diff; closes: #919522).
   * Update to debhelper compat level 12.
   * Use the new cmake+ninja buildsystem.
+  * Drop the documentation packages. They cannot be built properly with
+    qdoc 5.11. See https://github.com/annulen/webkit/issues/793.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jan 2019 22:12:02 +0300
 

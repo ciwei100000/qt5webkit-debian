@@ -52,30 +52,19 @@ DEB_CXXFLAGS_MAINT_APPEND += -fpermissive
 override_dh_auto_configure:
 	dh_auto_configure -- -DPORT=Qt $(EXTRA_CMAKE_ARGUMENTS)
 
-override_dh_auto_build-indep:
-	BUILDDIR=$(CURDIR)/obj-$(DEB_HOST_GNU_TYPE) \
-	dh_auto_build -- docs
-
-override_dh_auto_install-arch:
+override_dh_auto_install:
 	dh_auto_install
 
 	# Remove private headers
 	rm -rf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWebKit/*/QtWebKit
 	rm -rf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWebKitWidgets/*/QtWebKitWidgets
 
-override_dh_auto_install-indep:
-	install -d debian/tmp/usr/share/qt5/
-	cp -r obj-$(DEB_HOST_GNU_TYPE)/doc debian/tmp/usr/share/qt5/
-
 override_dh_missing:
 	dh_missing --fail-missing
 
-override_dh_auto_test-arch:
+override_dh_auto_test:
 ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 	-cd obj-$(DEB_HOST_GNU_TYPE); \
 	xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
 	ctest --output-on-failure
 endif
-
-override_dh_auto_test-indep:
-	# Do not attempt to run anything to make build-indep work
