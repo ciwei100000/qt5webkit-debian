@@ -8,6 +8,7 @@ qtwebkit-opensource-src (5.212.0~alpha2-20) UNRELEASED; urgency=medium
   * Drop the documentation packages. They cannot be built properly with
     qdoc 5.11. See https://github.com/annulen/webkit/issues/793.
   * Update symbols files from buildds’ logs.
+  * Fix libpng warning by running pngcrush during build.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Jan 2019 22:12:02 +0300
 
