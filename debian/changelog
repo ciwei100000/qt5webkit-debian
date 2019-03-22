@@ -1,13 +1,12 @@
-qtwebkit-opensource-src (5.212.0~alpha2-21) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha2-21) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add fastcall attribute to JSImageConstructor::construct method.
     This fixes crash on i386 (closes: #909366, #924402). Thanks Bernhard
     Übelacker for the patch!
   * Remove -fpermissive from build flags. It was wrong and not needed
     with the applied patch.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Mar 2019 14:35:30 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 22 Mar 2019 11:42:38 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha2-20) unstable; urgency=medium
 
