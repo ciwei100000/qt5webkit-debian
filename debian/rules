@@ -41,11 +41,6 @@ ifneq (,$(filter $(DEB_HOST_ARCH_CPU),ppc64el s390x))
 	EXTRA_CMAKE_ARGUMENTS += -DUSE_SYSTEM_MALLOC=ON
 endif
 
-# See https://github.com/annulen/webkit/issues/795
-ifeq ($(DEB_HOST_ARCH_CPU),i386)
-	DEB_CXXFLAGS_MAINT_APPEND += -fpermissive
-endif
-
 %:
 	dh $@ --buildsystem=cmake+ninja --with pkgkde_symbolshelper
 
