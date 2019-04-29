@@ -1,10 +1,9 @@
-qtwebkit-opensource-src (5.212.0~alpha2-23) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha2-23) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update debian/libqt5webkit5.symbols from buildds’ logs.
   * Bump Qt build-dependencies to 5.12.3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Apr 2019 11:28:02 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 29 Apr 2019 11:30:50 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha2-22) experimental; urgency=medium
 
