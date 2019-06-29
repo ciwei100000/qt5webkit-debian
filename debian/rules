@@ -47,13 +47,6 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- -DPORT=Qt $(EXTRA_CMAKE_ARGUMENTS)
 
-override_dh_auto_install:
-	dh_auto_install
-
-	# Remove private headers
-	rm -rf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWebKit/*/QtWebKit
-	rm -rf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWebKitWidgets/*/QtWebKitWidgets
-
 override_dh_missing:
 	dh_missing --fail-missing
 
