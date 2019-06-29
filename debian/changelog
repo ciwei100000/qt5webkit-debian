@@ -8,6 +8,8 @@ qtwebkit-opensource-src (5.212.0~alpha3-1) UNRELEASED; urgency=medium
     all have been applied in the new release.
   * Refresh debian/patches/reduce_exports.diff.
   * Bump Qt build-dependencies to 5.12.4.
+  * Stop running pngcrush during build, the broken files were fixed
+    upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jun 2019 21:00:33 +0300
 

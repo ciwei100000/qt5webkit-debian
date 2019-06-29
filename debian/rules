@@ -47,12 +47,6 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- -DPORT=Qt $(EXTRA_CMAKE_ARGUMENTS)
 
-override_dh_auto_build:
-	# Fix QTBUG-71134 (libpng warning: iCCP: known incorrect sRGB profile)
-	pngcrush -ow -fix ./Source/WebCore/Resources/nullPlugin@2x.png
-	pngcrush -ow -fix ./Source/WebCore/Resources/textAreaResizeCorner@2x.png
-	dh_auto_build
-
 override_dh_auto_install:
 	dh_auto_install
 
