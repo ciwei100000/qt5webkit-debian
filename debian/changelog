@@ -1,6 +1,5 @@
-qtwebkit-opensource-src (5.212.0~alpha3-1) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha3-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream alpha release.
   * Update Homepage and debian/watch for GitHub repository rename
     (annulen/webkit → qtwebkit/qtwebkit).
@@ -15,7 +14,7 @@ qtwebkit-opensource-src (5.212.0~alpha3-1) UNRELEASED; urgency=medium
   * Add private .pri files to debian/not-installed.
   * Update debian/libqt5webkit5.symbols from the current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jun 2019 21:00:33 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 30 Jun 2019 15:57:32 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha2-23) experimental; urgency=medium
 
