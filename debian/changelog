@@ -13,6 +13,7 @@ qtwebkit-opensource-src (5.212.0~alpha3-1) UNRELEASED; urgency=medium
   * Update debian/libqt5webkit5.install to match upstream process name
     change (QtWebDatabaseProcess → QtWebStorageProcess).
   * Add private .pri files to debian/not-installed.
+  * Update debian/libqt5webkit5.symbols from the current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jun 2019 21:00:33 +0300
 
