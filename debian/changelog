@@ -1,11 +1,10 @@
-qtwebkit-opensource-src (5.212.0~alpha3-3) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha3-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Bump qtbase build-dependency to 5.12.4+dfsg-3, to make sure we build
     with NPAPI plugins support (the needed CMake file was added there).
   * Install QtWebPluginProcess executable in libqt5webkit5 package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jul 2019 22:43:35 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 05 Jul 2019 22:48:44 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha3-2) experimental; urgency=medium
 
