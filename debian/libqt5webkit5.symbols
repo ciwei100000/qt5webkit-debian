@@ -2443,16 +2443,9 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  _ZZZN21QWebIconImageProvider10identifierEvENKUlvE_clEvE15qstring_literal@Qt_5 5.212.0~alpha3
  _ZlsR11QDataStreamRK11QWebHistory@Qt_5 5.212.0~alpha3
  _ZrsR11QDataStreamR11QWebHistory@Qt_5 5.212.0~alpha3
- (arch=hurd-i386)llintPCRangeEnd@Base 5.212.0~alpha2
- (arch=hurd-i386)llintPCRangeStart@Base 5.212.0~alpha2
- (arch=hurd-i386)llint_entry@Base 5.212.0~alpha2
  (c++)"non-virtual thunk to QQuickWebPage::~QQuickWebPage()@Qt_5" 5.212.0~alpha3
  (c++)"non-virtual thunk to QQuickWebView::componentComplete()@Qt_5" 5.212.0~alpha3
  (c++)"non-virtual thunk to QQuickWebView::~QQuickWebView()@Qt_5" 5.212.0~alpha3
- (arch=hurd-i386)sanitizeStackForVMImpl@Base 5.212.0~alpha2
- (arch=hurd-i386)vmEntryRecord@Base 5.212.0~alpha2
- (arch=hurd-i386)vmEntryToJavaScript@Base 5.212.0~alpha2
- (arch=hurd-i386)vmEntryToNative@Base 5.212.0~alpha2
 libQt5WebKitWidgets.so.5 libqt5webkit5 #MINVER#
  (optional=linker)Qt_5.0@Qt_5.0 5.6.1
  (optional=linker)Qt_5.10@Qt_5.10 5.212.0~alpha2
