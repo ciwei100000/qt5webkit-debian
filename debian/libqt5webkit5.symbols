@@ -2319,7 +2319,7 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  (optional=templinst|arch=i386 ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC1ISt5_BindIFMN6WebKit10WebProcessEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=!amd64 !arm64 !x32)_ZNSt8functionIFvvEEC1ISt5_BindIFMN7WebCore10LinkLoaderEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=i386 ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC1ISt5_BindIFMN7WebCore10PluginViewEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
- (optional=templinst|arch=ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC1ISt5_BindIFMN7WebCore10SVGElementEFvvEPNS4_16SVGScriptElementEEEvvEET_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=ppc64 s390x sh4)_ZNSt8functionIFvvEEC1ISt5_BindIFMN7WebCore10SVGElementEFvvEPNS4_16SVGScriptElementEEEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC1ISt5_BindIFMN7WebCore12EventHandlerEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=alpha armel armhf i386 mips mips64el mipsel)_ZNSt8functionIFvvEEC1ISt5_BindIFMN7WebCore12GCControllerEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC1ISt5_BindIFMN7WebCore12SourceBufferEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
@@ -2359,7 +2359,7 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  (optional=templinst|arch=i386 ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC2ISt5_BindIFMN6WebKit10WebProcessEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=!amd64 !arm64 !x32)_ZNSt8functionIFvvEEC2ISt5_BindIFMN7WebCore10LinkLoaderEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=i386 ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC2ISt5_BindIFMN7WebCore10PluginViewEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
- (optional=templinst|arch=ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC2ISt5_BindIFMN7WebCore10SVGElementEFvvEPNS4_16SVGScriptElementEEEvvEET_@Qt_5 5.212.0~alpha3
+ (optional=templinst|arch=ppc64 s390x sh4)_ZNSt8functionIFvvEEC2ISt5_BindIFMN7WebCore10SVGElementEFvvEPNS4_16SVGScriptElementEEEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC2ISt5_BindIFMN7WebCore12EventHandlerEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=alpha armel armhf i386 mips mips64el mipsel)_ZNSt8functionIFvvEEC2ISt5_BindIFMN7WebCore12GCControllerEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
  (optional=templinst|arch=ppc64 ppc64el s390x sh4)_ZNSt8functionIFvvEEC2ISt5_BindIFMN7WebCore12SourceBufferEFvvEPS5_EEvvEET_@Qt_5 5.212.0~alpha3
