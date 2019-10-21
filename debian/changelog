@@ -1,5 +1,7 @@
 qtwebkit-opensource-src (5.212.0~alpha3-5) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update debian/libqt5webkit5.symbols from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Oct 2019 10:50:32 +0300
 
