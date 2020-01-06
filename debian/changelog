@@ -1,5 +1,7 @@
 qtwebkit-opensource-src (5.212.0~alpha3-6) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Port the build tools to Python 3 (closes: #938323).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jan 2020 23:18:55 +0300
 
