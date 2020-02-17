@@ -1,12 +1,11 @@
-qtwebkit-opensource-src (5.212.0~alpha3-7) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha3-7) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Do not use Python 2 even if it is present (closes: #949488).
   * Backport upstream patch to fix build with ICU 65.1.
   * Bump Standards-Version to 4.5.0, no changes needed.
   * Update debian/libqt5webkit5.symbols from buildds’ logs (hppa).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Feb 2020 13:38:16 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 17 Feb 2020 21:55:34 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha3-6) unstable; urgency=medium
 
