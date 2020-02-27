@@ -1,3 +1,8 @@
+qtwebkit-opensource-src (5.212.0~alpha3-8) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Feb 2020 12:14:35 +0300
+
 qtwebkit-opensource-src (5.212.0~alpha3-7) unstable; urgency=medium
 
   * Do not use Python 2 even if it is present (closes: #949488).
