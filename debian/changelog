@@ -1,12 +1,11 @@
-qtwebkit-opensource-src (5.212.0~alpha3-8) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha3-8) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Build against Qt 5.14.1.
   * Use debhelper-compat instead of debian/compat.
   * Add Qt_5.13 and Qt_5.14 tags to debian/libqt5webkit5.symbols.
   * debian/rules: Update issues links to the new GitHub project.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Feb 2020 12:14:35 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 27 Feb 2020 13:09:30 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha3-7) unstable; urgency=medium
 
