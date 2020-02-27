@@ -1,5 +1,7 @@
 qtwebkit-opensource-src (5.212.0~alpha3-8) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Build against Qt 5.14.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Feb 2020 12:14:35 +0300
 
