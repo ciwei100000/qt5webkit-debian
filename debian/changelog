@@ -8,6 +8,7 @@ qtwebkit-opensource-src (5.212.0~alpha4-1) UNRELEASED; urgency=medium
     - icu_65.1.diff
   * Refresh debian/patches/reduce_exports.diff.
   * Drop files renaming hack from debian/rules, no longer needed.
+  * Add one new symbol to debian/libqt5webkit5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Mar 2020 14:38:37 +0300
 
