@@ -1,6 +1,5 @@
-qtwebkit-opensource-src (5.212.0~alpha4-1) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha4-1) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream alpha release.
   * Drop patches, included in the new release:
     - python3_builtins.diff
@@ -12,7 +11,7 @@ qtwebkit-opensource-src (5.212.0~alpha4-1) UNRELEASED; urgency=medium
   * Fix Lintian warnings about debian/copyright.
   * Switch to debhelper-compat as a build-dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Mar 2020 14:38:37 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 12 Mar 2020 16:11:29 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha3-7) unstable; urgency=medium
 
