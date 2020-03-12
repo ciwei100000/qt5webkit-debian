@@ -1,3 +1,10 @@
+qtwebkit-opensource-src (5.212.0~alpha4-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream alpha release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Mar 2020 14:38:37 +0300
+
 qtwebkit-opensource-src (5.212.0~alpha3-7) unstable; urgency=medium
 
   * Do not use Python 2 even if it is present (closes: #949488).
