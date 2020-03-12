@@ -6,6 +6,7 @@ qtwebkit-opensource-src (5.212.0~alpha4-1) UNRELEASED; urgency=medium
     - python3_builtins.diff
     - python3.diff
     - icu_65.1.diff
+  * Refresh debian/patches/reduce_exports.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Mar 2020 14:38:37 +0300
 
