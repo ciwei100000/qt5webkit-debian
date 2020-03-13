@@ -1,3 +1,9 @@
+qtwebkit-opensource-src (5.212.0~alpha4-2) experimental; urgency=medium
+
+  * Merge 5.212.0~alpha4-1 unstable upload into experimental branch.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 13 Mar 2020 13:25:50 +0300
+
 qtwebkit-opensource-src (5.212.0~alpha4-1) unstable; urgency=medium
 
   * New upstream alpha release.
