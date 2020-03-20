@@ -2452,7 +2452,7 @@ libQt5WebKit.so.5 libqt5webkit5 #MINVER#
  _ZTV25QWebNotificationPresenter@Qt_5 5.212.0~alpha3
  (arch=!ppc64el !s390x)_ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvPN7bmalloc9AsyncTaskINS3_4HeapEMS5_FvvEEEES9_EEEEEE@Qt_5 5.212.0~alpha3
  (arch=armel)_ZTVSt23_Sp_counted_ptr_inplaceISt5mutexSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Qt_5 5.212.0~alpha3
- (arch=!armel !ppc64el !s390x)_ZTVSt23_Sp_counted_ptr_inplaceISt5mutexSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Qt_5 5.212.0~alpha3
+ (arch=!armel !ppc64el !riscv64 !s390x)_ZTVSt23_Sp_counted_ptr_inplaceISt5mutexSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Qt_5 5.212.0~alpha3
  (arch=!ppc64el !s390x)_ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Qt_5 5.212.0~alpha3
  _ZZZN21QWebIconImageProvider10identifierEvENKUlvE_clEvE15qstring_literal@Qt_5 5.212.0~alpha3
  _ZlsR11QDataStreamRK11QWebHistory@Qt_5 5.212.0~alpha3

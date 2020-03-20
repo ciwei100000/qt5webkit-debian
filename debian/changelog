@@ -1,3 +1,9 @@
+qtwebkit-opensource-src (5.212.0~alpha4-1ubuntu1) focal; urgency=medium
+
+  * Add riscv64 support (patch from Debian).
+
+ -- William Grant <wgrant@ubuntu.com>  Fri, 20 Mar 2020 13:46:05 +1100
+
 qtwebkit-opensource-src (5.212.0~alpha4-1) unstable; urgency=medium
 
   * New upstream alpha release.
