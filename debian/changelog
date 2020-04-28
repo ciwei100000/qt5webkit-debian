@@ -1,10 +1,9 @@
-qtwebkit-opensource-src (5.212.0~alpha4-3) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha4-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Bump Qt build-dependencies to 5.14.2.
   * Add support for riscv64, based on a patch by William Grant.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Apr 2020 21:54:22 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 28 Apr 2020 23:22:16 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha4-2) experimental; urgency=medium
 
