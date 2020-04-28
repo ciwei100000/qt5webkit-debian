@@ -41,6 +41,11 @@ ifneq (,$(filter $(DEB_HOST_ARCH_CPU),ppc64el s390x))
 	EXTRA_CMAKE_ARGUMENTS += -DUSE_SYSTEM_MALLOC=ON
 endif
 
+# webkit2gtk does a similar thing, see their prefer-pthread.patch
+ifeq ($(DEB_HOST_ARCH),riscv64)
+	EXTRA_CMAKE_ARGUMENTS += -DTHREADS_PREFER_PTHREAD_FLAG=ON
+endif
+
 %:
 	dh $@ --buildsystem=cmake+ninja --with pkgkde_symbolshelper
 
