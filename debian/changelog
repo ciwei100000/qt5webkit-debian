@@ -1,5 +1,7 @@
 qtwebkit-opensource-src (5.212.0~alpha4-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Bump Qt build-dependencies to 5.14.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Apr 2020 21:54:22 +0300
 
