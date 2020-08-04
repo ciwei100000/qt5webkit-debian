@@ -2,6 +2,7 @@ qtwebkit-opensource-src (5.212.0~alpha4-5) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add a patch to fix build with Bison 3.7 (closes: #966849).
+  * Update debian/libqt5webkit5.symbols for GCC 10.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Aug 2020 14:57:44 +0300
 
