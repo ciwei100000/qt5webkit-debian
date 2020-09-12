@@ -1,3 +1,9 @@
+qtwebkit-opensource-src (5.212.0~alpha4-5-c1) unstable; urgency=medium
+
+  * Removed symbols files
+
+ -- ciwei100000 <ciwei100000@gmail.com>  Mon, 17 Aug 2020 05:17:19 -0700
+
 qtwebkit-opensource-src (5.212.0~alpha4-5) unstable; urgency=medium
 
   * Add a patch to fix build with Bison 3.7 (closes: #966849).
