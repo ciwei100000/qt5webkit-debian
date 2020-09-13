@@ -6,6 +6,7 @@ qtwebkit-opensource-src (5.212.0~alpha4-6) UNRELEASED; urgency=medium
     - Use ${DEB_HOST_MULTIARCH} substitution.
   * Update debian/libqt5webkit5.symbols from buildds’ logs.
   * Add upstream patch to not attempt rendering PDF with Qt image plugin.
+  * Build against Qt 5.15.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Sep 2020 17:07:51 +0300
 
