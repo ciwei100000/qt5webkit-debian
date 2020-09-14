@@ -1,6 +1,5 @@
-qtwebkit-opensource-src (5.212.0~alpha4-6) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha4-6) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update to debhelper compat level 13.
     - Drop dh_missing override, --fail-missing is now default behavior.
     - Use ${DEB_HOST_MULTIARCH} substitution.
@@ -9,7 +8,7 @@ qtwebkit-opensource-src (5.212.0~alpha4-6) UNRELEASED; urgency=medium
   * Build against Qt 5.15.1.
   * Add Qt_5.15 tag to debian/libqt5webkit5.symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 13 Sep 2020 17:07:51 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 14 Sep 2020 10:21:11 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha4-5) unstable; urgency=medium
 
