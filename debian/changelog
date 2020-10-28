@@ -1,3 +1,9 @@
+qtwebkit-opensource-src (5.212.0~alpha4-7) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 28 Oct 2020 21:52:59 +0300
+
 qtwebkit-opensource-src (5.212.0~alpha4-6) experimental; urgency=medium
 
   * Update to debhelper compat level 13.
