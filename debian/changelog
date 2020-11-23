@@ -1,5 +1,7 @@
 qtwebkit-opensource-src (5.212.0~alpha4-9) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Backport upstream patch to fix build with Python 3.9.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Nov 2020 19:59:01 +0300
 
