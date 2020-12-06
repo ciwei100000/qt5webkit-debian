@@ -1,5 +1,7 @@
 qtwebkit-opensource-src (5.212.0~alpha4-10) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Bump Standards-Version to 4.5.1, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Dec 2020 18:50:50 +0300
 
