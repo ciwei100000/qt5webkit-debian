@@ -1,11 +1,10 @@
-qtwebkit-opensource-src (5.212.0~alpha4-11) UNRELEASED; urgency=medium
+qtwebkit-opensource-src (5.212.0~alpha4-11) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Remove unused mesa-common-dev build-dependency.
     Thanks to Helmut Grohne for the suggestion!
   * Update Forwarded status of debian/patches/bison_3.7.diff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Jan 2021 11:31:39 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 04 Jan 2021 21:09:41 +0300
 
 qtwebkit-opensource-src (5.212.0~alpha4-10) unstable; urgency=medium
 
