@@ -3,6 +3,7 @@ qtwebkit-opensource-src (5.212.0~alpha4-12) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Add a patch from openSUSE to fix build with GLib ≥ 2.68.
     Thanks to Fabian Vogt!
+  * Update debian/libqt5webkit5.symbols for hppa.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Apr 2021 20:17:59 +0300
 
