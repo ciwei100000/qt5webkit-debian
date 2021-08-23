@@ -1,3 +1,50 @@
+qtwebkit-opensource-src (5.212.0~alpha4-11) unstable; urgency=medium
+
+  * Remove unused mesa-common-dev build-dependency.
+    Thanks to Helmut Grohne for the suggestion!
+  * Update Forwarded status of debian/patches/bison_3.7.diff.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 04 Jan 2021 21:09:41 +0300
+
+qtwebkit-opensource-src (5.212.0~alpha4-10) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.5.1, no changes needed.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 11 Dec 2020 11:32:37 +0300
+
+qtwebkit-opensource-src (5.212.0~alpha4-9) experimental; urgency=medium
+
+  * Backport upstream patch to fix build with Python 3.9.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 23 Nov 2020 21:31:53 +0300
+
+qtwebkit-opensource-src (5.212.0~alpha4-8) experimental; urgency=medium
+
+  * Update debian/libqt5webkit5.symbols for riscv64.
+  * Build against Qt 5.15.2.
+  * Fix Lintian globbing-patterns-out-of-order warning.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 22 Nov 2020 21:09:50 +0300
+
+qtwebkit-opensource-src (5.212.0~alpha4-7) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 28 Oct 2020 21:52:59 +0300
+
+qtwebkit-opensource-src (5.212.0~alpha4-6) experimental; urgency=medium
+
+  * Update to debhelper compat level 13.
+    - Drop dh_missing override, --fail-missing is now default behavior.
+    - Use ${DEB_HOST_MULTIARCH} substitution.
+  * Update debian/libqt5webkit5.symbols from buildds’ logs.
+  * Add upstream patch to not attempt rendering PDF with Qt image plugin.
+  * Build against Qt 5.15.1.
+  * Add Qt_5.15 tag to debian/libqt5webkit5.symbols.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 14 Sep 2020 10:21:11 +0300
+
 qtwebkit-opensource-src (5.212.0~alpha4-5-c1) unstable; urgency=medium
 
   * Removed symbols files
