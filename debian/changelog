@@ -5,6 +5,7 @@ qtwebkit-opensource-src (5.212.0~alpha4-14) UNRELEASED; urgency=medium
     and potentially other 64-bit big endian systems (LP: #1951470).
     Thanks Andreas Krebbel for the patch and Frank Heimes for the initial
     debdiff!
+  * Update debian/source/lintian-overrides for Lintian 2.109.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Nov 2021 21:32:23 +0300
 
