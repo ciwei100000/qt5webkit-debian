@@ -1,5 +1,10 @@
 qtwebkit-opensource-src (5.212.0~alpha4-14) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * debian/patches/jscore_big_endian.diff: Fix segmentation fault on s390x
+    and potentially other 64-bit big endian systems (LP: #1951470).
+    Thanks Andreas Krebbel for the patch and Frank Heimes for the initial
+    debdiff!
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Nov 2021 21:32:23 +0300
 
