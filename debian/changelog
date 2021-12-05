@@ -1,3 +1,9 @@
+qtwebkit-opensource-src (5.212.0~alpha4-14c1) unstable; urgency=medium
+
+  * Merge tag 'debian/5.212.0~alpha4-14' into ciwei100000
+
+ -- Xuqing Liu <ciwei100000@gmail.com>  Sun, 05 Dec 2021 02:15:05 -0800
+
 qtwebkit-opensource-src (5.212.0~alpha4-14) unstable; urgency=medium
 
   * debian/patches/jscore_big_endian.diff: Fix segmentation fault on s390x
