@@ -1,3 +1,28 @@
+qtwebkit-opensource-src (5.212.0~alpha4-14) unstable; urgency=medium
+
+  * debian/patches/jscore_big_endian.diff: Fix segmentation fault on s390x
+    and potentially other 64-bit big endian systems (LP: #1951470).
+    Thanks Andreas Krebbel for the patch and Frank Heimes for the initial
+    debdiff!
+  * Update debian/source/lintian-overrides for Lintian 2.109.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 24 Nov 2021 22:27:08 +0300
+
+qtwebkit-opensource-src (5.212.0~alpha4-13) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.6.0, no changes needed.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 28 Aug 2021 20:44:39 +0300
+
+qtwebkit-opensource-src (5.212.0~alpha4-12) experimental; urgency=medium
+
+  * Add a patch from openSUSE to fix build with GLib ≥ 2.68.
+    Thanks to Fabian Vogt!
+  * Update debian/libqt5webkit5.symbols for hppa.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 07 Apr 2021 20:31:19 +0300
+
 qtwebkit-opensource-src (5.212.0~alpha4-11c1) unstable; urgency=medium
 
   * Merge tag 'debian/5.212.0_alpha4-11' into ciwei100000
